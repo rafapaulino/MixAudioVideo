@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A215CA016108C8600EFE485 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A215C9F16108C8600EFE485 /* UIKit.framework */; };
+		6A215CA216108C8600EFE485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A215CA116108C8600EFE485 /* Foundation.framework */; };
+		6A215CA416108C8600EFE485 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A215CA316108C8600EFE485 /* CoreGraphics.framework */; };
+		6A215CAA16108C8600EFE485 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A215CA816108C8600EFE485 /* InfoPlist.strings */; };
+		6A215CAC16108C8600EFE485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A215CAB16108C8600EFE485 /* main.m */; };
+		6A215CB016108C8600EFE485 /* PrincipalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A215CAF16108C8600EFE485 /* PrincipalAppDelegate.m */; };
+		6A215CB316108C8600EFE485 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A215CB116108C8600EFE485 /* MainStoryboard.storyboard */; };
+		6A215CB616108C8600EFE485 /* PrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A215CB516108C8600EFE485 /* PrincipalViewController.m */; };
+		6A215CBE16108C8600EFE485 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A215CBD16108C8600EFE485 /* SenTestingKit.framework */; };
+		6A215CBF16108C8600EFE485 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A215C9F16108C8600EFE485 /* UIKit.framework */; };
+		6A215CC016108C8600EFE485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A215CA116108C8600EFE485 /* Foundation.framework */; };
+		6A215CC816108C8600EFE485 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A215CC616108C8600EFE485 /* InfoPlist.strings */; };
+		6A215CCB16108C8600EFE485 /* MixAudioVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A215CCA16108C8600EFE485 /* MixAudioVideoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A215CC116108C8600EFE485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A215C9216108C8600EFE485 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A215C9A16108C8600EFE485;
+			remoteInfo = MixAudioVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A215C9B16108C8600EFE485 /* MixAudioVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixAudioVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A215C9F16108C8600EFE485 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A215CA116108C8600EFE485 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A215CA316108C8600EFE485 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A215CA716108C8600EFE485 /* MixAudioVideo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MixAudioVideo-Info.plist"; sourceTree = "<group>"; };
+		6A215CA916108C8600EFE485 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A215CAB16108C8600EFE485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A215CAD16108C8600EFE485 /* MixAudioVideo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixAudioVideo-Prefix.pch"; sourceTree = "<group>"; };
+		6A215CAE16108C8600EFE485 /* PrincipalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalAppDelegate.h; sourceTree = "<group>"; };
+		6A215CAF16108C8600EFE485 /* PrincipalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalAppDelegate.m; sourceTree = "<group>"; };
+		6A215CB216108C8600EFE485 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6A215CB416108C8600EFE485 /* PrincipalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalViewController.h; sourceTree = "<group>"; };
+		6A215CB516108C8600EFE485 /* PrincipalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalViewController.m; sourceTree = "<group>"; };
+		6A215CBC16108C8600EFE485 /* MixAudioVideoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixAudioVideoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A215CBD16108C8600EFE485 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A215CC516108C8600EFE485 /* MixAudioVideoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MixAudioVideoTests-Info.plist"; sourceTree = "<group>"; };
+		6A215CC716108C8600EFE485 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A215CC916108C8600EFE485 /* MixAudioVideoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixAudioVideoTests.h; sourceTree = "<group>"; };
+		6A215CCA16108C8600EFE485 /* MixAudioVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixAudioVideoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A215C9816108C8600EFE485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A215CA016108C8600EFE485 /* UIKit.framework in Frameworks */,
+				6A215CA216108C8600EFE485 /* Foundation.framework in Frameworks */,
+				6A215CA416108C8600EFE485 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A215CB816108C8600EFE485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A215CBE16108C8600EFE485 /* SenTestingKit.framework in Frameworks */,
+				6A215CBF16108C8600EFE485 /* UIKit.framework in Frameworks */,
+				6A215CC016108C8600EFE485 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A215C9016108C8600EFE485 = {
+			isa = PBXGroup;
+			children = (
+				6A215CA516108C8600EFE485 /* MixAudioVideo */,
+				6A215CC316108C8600EFE485 /* MixAudioVideoTests */,
+				6A215C9E16108C8600EFE485 /* Frameworks */,
+				6A215C9C16108C8600EFE485 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A215C9C16108C8600EFE485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A215C9B16108C8600EFE485 /* MixAudioVideo.app */,
+				6A215CBC16108C8600EFE485 /* MixAudioVideoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A215C9E16108C8600EFE485 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A215C9F16108C8600EFE485 /* UIKit.framework */,
+				6A215CA116108C8600EFE485 /* Foundation.framework */,
+				6A215CA316108C8600EFE485 /* CoreGraphics.framework */,
+				6A215CBD16108C8600EFE485 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A215CA516108C8600EFE485 /* MixAudioVideo */ = {
+			isa = PBXGroup;
+			children = (
+				6A215CAE16108C8600EFE485 /* PrincipalAppDelegate.h */,
+				6A215CAF16108C8600EFE485 /* PrincipalAppDelegate.m */,
+				6A215CB116108C8600EFE485 /* MainStoryboard.storyboard */,
+				6A215CB416108C8600EFE485 /* PrincipalViewController.h */,
+				6A215CB516108C8600EFE485 /* PrincipalViewController.m */,
+				6A215CA616108C8600EFE485 /* Supporting Files */,
+			);
+			path = MixAudioVideo;
+			sourceTree = "<group>";
+		};
+		6A215CA616108C8600EFE485 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A215CA716108C8600EFE485 /* MixAudioVideo-Info.plist */,
+				6A215CA816108C8600EFE485 /* InfoPlist.strings */,
+				6A215CAB16108C8600EFE485 /* main.m */,
+				6A215CAD16108C8600EFE485 /* MixAudioVideo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A215CC316108C8600EFE485 /* MixAudioVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A215CC916108C8600EFE485 /* MixAudioVideoTests.h */,
+				6A215CCA16108C8600EFE485 /* MixAudioVideoTests.m */,
+				6A215CC416108C8600EFE485 /* Supporting Files */,
+			);
+			path = MixAudioVideoTests;
+			sourceTree = "<group>";
+		};
+		6A215CC416108C8600EFE485 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A215CC516108C8600EFE485 /* MixAudioVideoTests-Info.plist */,
+				6A215CC616108C8600EFE485 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A215C9A16108C8600EFE485 /* MixAudioVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A215CCE16108C8600EFE485 /* Build configuration list for PBXNativeTarget "MixAudioVideo" */;
+			buildPhases = (
+				6A215C9716108C8600EFE485 /* Sources */,
+				6A215C9816108C8600EFE485 /* Frameworks */,
+				6A215C9916108C8600EFE485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixAudioVideo;
+			productName = MixAudioVideo;
+			productReference = 6A215C9B16108C8600EFE485 /* MixAudioVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A215CBB16108C8600EFE485 /* MixAudioVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A215CD116108C8600EFE485 /* Build configuration list for PBXNativeTarget "MixAudioVideoTests" */;
+			buildPhases = (
+				6A215CB716108C8600EFE485 /* Sources */,
+				6A215CB816108C8600EFE485 /* Frameworks */,
+				6A215CB916108C8600EFE485 /* Resources */,
+				6A215CBA16108C8600EFE485 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A215CC216108C8600EFE485 /* PBXTargetDependency */,
+			);
+			name = MixAudioVideoTests;
+			productName = MixAudioVideoTests;
+			productReference = 6A215CBC16108C8600EFE485 /* MixAudioVideoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A215C9216108C8600EFE485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Principal;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = rafapaulino.com;
+			};
+			buildConfigurationList = 6A215C9516108C8600EFE485 /* Build configuration list for PBXProject "MixAudioVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A215C9016108C8600EFE485;
+			productRefGroup = 6A215C9C16108C8600EFE485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A215C9A16108C8600EFE485 /* MixAudioVideo */,
+				6A215CBB16108C8600EFE485 /* MixAudioVideoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A215C9916108C8600EFE485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A215CAA16108C8600EFE485 /* InfoPlist.strings in Resources */,
+				6A215CB316108C8600EFE485 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A215CB916108C8600EFE485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A215CC816108C8600EFE485 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A215CBA16108C8600EFE485 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A215C9716108C8600EFE485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A215CAC16108C8600EFE485 /* main.m in Sources */,
+				6A215CB016108C8600EFE485 /* PrincipalAppDelegate.m in Sources */,
+				6A215CB616108C8600EFE485 /* PrincipalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A215CB716108C8600EFE485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A215CCB16108C8600EFE485 /* MixAudioVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A215CC216108C8600EFE485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A215C9A16108C8600EFE485 /* MixAudioVideo */;
+			targetProxy = 6A215CC116108C8600EFE485 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A215CA816108C8600EFE485 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A215CA916108C8600EFE485 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A215CB116108C8600EFE485 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A215CB216108C8600EFE485 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6A215CC616108C8600EFE485 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A215CC716108C8600EFE485 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A215CCC16108C8600EFE485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A215CCD16108C8600EFE485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A215CCF16108C8600EFE485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MixAudioVideo/MixAudioVideo-Prefix.pch";
+				INFOPLIST_FILE = "MixAudioVideo/MixAudioVideo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A215CD016108C8600EFE485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MixAudioVideo/MixAudioVideo-Prefix.pch";
+				INFOPLIST_FILE = "MixAudioVideo/MixAudioVideo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A215CD216108C8600EFE485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MixAudioVideo.app/MixAudioVideo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MixAudioVideo/MixAudioVideo-Prefix.pch";
+				INFOPLIST_FILE = "MixAudioVideoTests/MixAudioVideoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A215CD316108C8600EFE485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MixAudioVideo.app/MixAudioVideo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MixAudioVideo/MixAudioVideo-Prefix.pch";
+				INFOPLIST_FILE = "MixAudioVideoTests/MixAudioVideoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A215C9516108C8600EFE485 /* Build configuration list for PBXProject "MixAudioVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A215CCC16108C8600EFE485 /* Debug */,
+				6A215CCD16108C8600EFE485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A215CCE16108C8600EFE485 /* Build configuration list for PBXNativeTarget "MixAudioVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A215CCF16108C8600EFE485 /* Debug */,
+				6A215CD016108C8600EFE485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A215CD116108C8600EFE485 /* Build configuration list for PBXNativeTarget "MixAudioVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A215CD216108C8600EFE485 /* Debug */,
+				6A215CD316108C8600EFE485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A215C9216108C8600EFE485 /* Project object */;
+}
