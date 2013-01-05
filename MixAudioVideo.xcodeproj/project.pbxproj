@@ -20,6 +20,11 @@
 		6A215CC016108C8600EFE485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A215CA116108C8600EFE485 /* Foundation.framework */; };
 		6A215CC816108C8600EFE485 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A215CC616108C8600EFE485 /* InfoPlist.strings */; };
 		6A215CCB16108C8600EFE485 /* MixAudioVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A215CCA16108C8600EFE485 /* MixAudioVideoTests.m */; };
+		6A215CD516108D7D00EFE485 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A215CD416108D7D00EFE485 /* CoreMedia.framework */; };
+		6A215CD716108D8A00EFE485 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A215CD616108D8A00EFE485 /* MediaPlayer.framework */; };
+		6A215CD916108D9600EFE485 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A215CD816108D9600EFE485 /* AVFoundation.framework */; };
+		6A215CDB16108EC100EFE485 /* Paradise.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6A215CDA16108EC100EFE485 /* Paradise.m4a */; };
+		6A215CDD16108EE400EFE485 /* filme.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6A215CDC16108EE400EFE485 /* filme.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,11 @@
 		6A215CC716108C8600EFE485 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A215CC916108C8600EFE485 /* MixAudioVideoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixAudioVideoTests.h; sourceTree = "<group>"; };
 		6A215CCA16108C8600EFE485 /* MixAudioVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixAudioVideoTests.m; sourceTree = "<group>"; };
+		6A215CD416108D7D00EFE485 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6A215CD616108D8A00EFE485 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6A215CD816108D9600EFE485 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6A215CDA16108EC100EFE485 /* Paradise.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Paradise.m4a; sourceTree = "<group>"; };
+		6A215CDC16108EE400EFE485 /* filme.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = filme.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A215CD916108D9600EFE485 /* AVFoundation.framework in Frameworks */,
+				6A215CD716108D8A00EFE485 /* MediaPlayer.framework in Frameworks */,
+				6A215CD516108D7D00EFE485 /* CoreMedia.framework in Frameworks */,
 				6A215CA016108C8600EFE485 /* UIKit.framework in Frameworks */,
 				6A215CA216108C8600EFE485 /* Foundation.framework in Frameworks */,
 				6A215CA416108C8600EFE485 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +94,9 @@
 		6A215C9016108C8600EFE485 = {
 			isa = PBXGroup;
 			children = (
+				6A215CD816108D9600EFE485 /* AVFoundation.framework */,
+				6A215CD616108D8A00EFE485 /* MediaPlayer.framework */,
+				6A215CD416108D7D00EFE485 /* CoreMedia.framework */,
 				6A215CA516108C8600EFE485 /* MixAudioVideo */,
 				6A215CC316108C8600EFE485 /* MixAudioVideoTests */,
 				6A215C9E16108C8600EFE485 /* Frameworks */,
@@ -116,6 +132,8 @@
 				6A215CB116108C8600EFE485 /* MainStoryboard.storyboard */,
 				6A215CB416108C8600EFE485 /* PrincipalViewController.h */,
 				6A215CB516108C8600EFE485 /* PrincipalViewController.m */,
+				6A215CDC16108EE400EFE485 /* filme.mov */,
+				6A215CDA16108EC100EFE485 /* Paradise.m4a */,
 				6A215CA616108C8600EFE485 /* Supporting Files */,
 			);
 			path = MixAudioVideo;
@@ -225,6 +243,8 @@
 			files = (
 				6A215CAA16108C8600EFE485 /* InfoPlist.strings in Resources */,
 				6A215CB316108C8600EFE485 /* MainStoryboard.storyboard in Resources */,
+				6A215CDB16108EC100EFE485 /* Paradise.m4a in Resources */,
+				6A215CDD16108EE400EFE485 /* filme.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
